@@ -1,0 +1,37 @@
+=====================================================
+    SISTEMA DE RECOMPENSA DIÁRIA (DAILY REWARD)
+          Desenvolvido por: [Jvzinzx, JvdogasR72]
+=====================================================
+
+Obrigado por adquirir este sistema! Siga os passos abaixo
+para que tudo funcione perfeitamente no seu jogo.
+
+--- PASSO 1: ORGANIZAÇÃO DOS ARQUIVOS ---
+Abra o arquivo .rbxm no seu Roblox Studio e mova os itens 
+para as seguintes pastas no seu Explorer:
+
+1. [Script] -> Mova para 'ServerScriptService'
+2. [ScreenGui] -> Mova para 'StarterGui'
+3. [RemoteEvent] -> Mova para 'ReplicatedStorage' 
+   (Certifique-se que o evento está dentro da pasta 'DailyReward' 
+   se o script solicitar).
+
+--- PASSO 2: ATIVAR PERMISSÕES ---
+Para que o sistema salve as moedas e o tempo, você DEVE ativar:
+1. Vá em 'Configurações do Jogo' (Game Settings).
+2. Clique em 'Segurança' (Security).
+3. Ative a opção 'Permitir Acesso a Serviços de API'.
+4. Clique em Salvar.
+
+--- PASSO 3: CONFIGURAÇÃO PERSONALIZADA ---
+Se quiser mudar o valor da recompensa ou o tempo:
+1. Abra o Script que está no 'ServerScriptService'.
+2. No topo do código, altere os valores em:
+   - RECOMPENSA = 500 (Quantidade de moedas)
+   - COOLDOWN = 86400 (Tempo em segundos - 86400 = 24h)
+
+--- SUPORTE ---
+Caso tenha alguma dúvida ou precise de ajuda na instalação,
+entre em contato via DM no Discord!
+
+=====================================================

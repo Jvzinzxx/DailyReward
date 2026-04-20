@@ -1,0 +1,38 @@
+=====================================================
+    PROFESSIONAL DAILY REWARD SYSTEM (GUI + SAVE)
+          Developed by: [Jvzinzx/JvdogasR72]
+=====================================================
+
+Thank you for purchasing this system! Follow these steps 
+to ensure everything works perfectly in your game.
+
+--- STEP 1: ORGANIZING THE FILES ---
+Open the .rbxm file in your Roblox Studio and move the 
+items to the following folders in your Explorer:
+
+1. [Script] -> Move to 'ServerScriptService'
+2. [ScreenGui] -> Move to 'StarterGui'
+3. [RemoteEvent] -> Move to 'ReplicatedStorage' 
+   (Make sure the event is inside the 'DailyReward' 
+   folder if the script requires it).
+
+--- STEP 2: ENABLE PERMISSIONS ---
+For the system to save coins and the cooldown timer, 
+you MUST enable API services:
+1. Go to 'Game Settings' in the top bar.
+2. Click on 'Security'.
+3. Enable 'Allow HTTP Requests' and 'Enable Studio Access to API Services'.
+4. Click Save.
+
+--- STEP 3: CUSTOM CONFIGURATION ---
+To change the reward amount or the cooldown time:
+1. Open the Script located in 'ServerScriptService'.
+2. At the top of the code, modify these values:
+   - REWARD_AMOUNT = 500 (Amount of coins)
+   - COOLDOWN_TIME = 86400 (Time in seconds - 86400 = 24h)
+
+--- SUPPORT ---
+If you have any questions or need help with the 
+installation, feel free to contact me via DM on Discord!
+
+=====================================================
